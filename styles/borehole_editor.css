@@ -1,0 +1,25 @@
+.library-block-title {
+    font-size: 10px;
+    line-height: 12px;
+    margin-top: 2px;
+}
+
+.library-block-dragging {
+    min-height: 60px;
+    width: 65px;
+}
+
+.library-block {
+    min-height: 60px;
+    width: 65px;
+}
+
+.library-block-row {
+    width: 95%;
+    height: 35px;
+}
+
+.library-search {
+    width: 290px;
+    height: 30px;
+}

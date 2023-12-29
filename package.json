@@ -1,0 +1,49 @@
+{
+  "name": "liftoff",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "NEXTAUTH_URL=http://localhost:3000 next dev",
+    "test": "NEXTAUTH_URL=http://localhost:3000 next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@ant-design/icons": "4.6.2",
+    "@blueprintjs/core": "^3.45.0",
+    "@blueprintjs/datetime": "^3.23.4",
+    "@blueprintjs/select": "^3.16.4",
+    "@blueprintjs/table": "^3.8.33",
+    "@fullhuman/postcss-purgecss": "^4.0.3",
+    "@next/bundle-analyzer": "^10.2.3",
+    "@prisma/client": "^2.16.1",
+    "@shopify/polaris": "6.5.0",
+    "@shopify/polaris-icons": "^4.5.0",
+    "antd": "4.18.2",
+    "babel-plugin-import": "1.13.3",
+    "cross-env": "^7.0.3",
+    "dayjs": "1.10.5",
+    "esm": "^3.2.25",
+    "mapbox-gl": "^2.3.0",
+    "moment": "^2.29.1",
+    "mongoose": "^5.12.13",
+    "next": "^12.0.7",
+    "next-auth": "^3.25.0",
+    "pdfkit": "^0.12.1",
+    "postcss-import": "^14.0.2",
+    "postcss-preset-env": "^7.2.0",
+    "react": "17.0.2",
+    "react-beautiful-dnd": "^13.1.0",
+    "react-dnd": "^13.1.1",
+    "react-dnd-html5-backend": "^12.1.1",
+    "react-dom": "17.0.2",
+    "react-map-gl": "^6.1.16",
+    "react-markdown": "^6.0.2",
+    "use-supercluster": "^0.2.9"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.0",
+    "tailwindcss": "^2.1.4"
+  }
+}

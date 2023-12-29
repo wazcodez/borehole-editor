@@ -1,0 +1,45 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.tooltip .tooltip-text {
+  visibility: hidden;
+  text-align: center;
+  padding: 2px 6px;
+  position: absolute;
+  z-index: 100;
+}
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+}
+
+/* Antd Overrides ----------------------- */
+
+/* Input Numbers */
+
+.inputNumber .ant-input-number {
+  border-radius: 0.5rem;
+}
+
+.inputNumber .ant-input-number-handler-wrap {
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.anticon {
+  vertical-align: middle;
+}
+.ant-tag {
+  margin-bottom: 5px;
+}
+
+/* Datasheet ----------------------- */
+
+.bp3-button {
+  border-radius: 0px;
+}
+
+.ant-input-group-addon {
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+}
